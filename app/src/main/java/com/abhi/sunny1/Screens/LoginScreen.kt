@@ -113,12 +113,12 @@ fun LoginScreen(navHostController: NavHostController, modifier: Modifier) {
                             Button(
                                 onClick = {
 
-                                    //if(email != "" && password != ""){
-                                    //  navHostController.navigate(Routes.BottomNav.route)
-                                    //   }else{
-                                    // Toast.makeText(context , "Email and Password are required" , Toast.LENGTH_SHORT).show()
-                                    //  }
-                                    navHostController.navigate(Routes.BottomNav.route)
+                                    if(email != "" && password != ""){
+                                      navHostController.navigate(Routes.BottomNav.route)
+                                      }else{
+                                     Toast.makeText(context , "Email and Password are required" , Toast.LENGTH_SHORT).show()
+                                      }
+                                  //  navHostController.navigate(Routes.BottomNav.route)
                                           },
                                 modifier = Modifier
                                     .fillMaxWidth()

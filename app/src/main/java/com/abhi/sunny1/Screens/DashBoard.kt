@@ -170,12 +170,12 @@ fun DashBoard(navHostController: NavHostController, modifier: Modifier) {
                             Box(
                                 modifier = Modifier
                                     .fillMaxWidth()
-                                    .height(150.dp)
+                                    .height(200.dp)
                                     .padding(top = 8.dp),
                                 contentAlignment = Alignment.Center
                             ) {
                                // Text(text = "Graph Placeholder", color = Color.Gray)
-                                Image(painter = painterResource(id = R.drawable.graph), contentDescription = "" )
+                                Image(painter = painterResource(id = R.drawable.graph), modifier = Modifier.width(400.dp).height(200.dp), contentDescription = "" )
                             }
 
                             // Legend for Mood

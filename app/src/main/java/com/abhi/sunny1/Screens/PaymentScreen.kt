@@ -15,7 +15,7 @@ fun PaymentScreen(modifier: Modifier) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally){
 
-        Text(text = "Payment Screen is progress")
+        Text(text = "We're working on the payment screen")
     }
 
 }
